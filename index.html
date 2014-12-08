@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ф/х Парфенькова Л.Н.</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/carousel.css"/>
+		<script type="text/javascript" src="js/gui.js"></script>
+		<script type="text/javascript" src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/carousel.js"></script>
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<font class="title">Парфенькова Л.Н.</font>
+			<div class="header-logo">
+				<div id="logo">
+					<font>КФХ</font>
+				</div>
+			</div>
+			<div class="inner-header">
+				<ul class="menu">
+					<li><a id="aAbout" class="now" href="#about">О нас</a></li>
+					<li><a id="aPrice" href="#price">Продукция</a></li>
+					<li><a id="aStore" href="#store">Где купить</a></li>
+					<li><a id="aContact" href="#contact">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="about" class="container">
+			<div id="carousel">
+				<div class="item">
+					<img src="imgs/expiriens.jpg">
+				</div>
+				<div hidden class="item">
+					<img src="imgs/quality.jpg">
+				</div>
+				<div hidden class="item">
+					<img src="imgs/store.jpg">
+				</div>
+			</div>
+			<div class="carousel-button">
+				<div class="button active" onClick="setItem(0);"></div>
+				<div class="button" onClick="setItem(1);"></div>
+				<div class="button" onClick="setItem(2);"></div>
+			</div>
+			<div class="carousel-info">
+				<div id="cit" class="info cor-title">
+					Имеет большой опыт в своей нише
+				</div>
+				<div id="cic" class="info cor-content">
+					Занимаемся производством и реализацией 
+					плодоовощной продукции с 1991 года
+				</div>
+			</div>
+		</div>
+		<div id="price" class="price-container">
+			<div class="price-title">
+				Наша продукция
+			</div>
+			<div class="price-inner-container">
+				<div>
+					<div class="price-content">
+						<div class="price-info">
+							ГРУША
+						</div>
+						<img src="imgs/pear.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							ЯБЛОКО
+						</div>
+						<img src="imgs/apple.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							ТОМАТЫ
+						</div>
+						<img src="imgs/tomat.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							ОГУРЕЦ
+						</div>
+						<img src="imgs/cucumber.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							КАПУСТА
+						</div>
+						<img src="imgs/cabbage.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							МОРКОВЬ
+						</div>
+						<img src="imgs/carrot.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							СВЕКЛА
+						</div>
+						<img src="imgs/beet.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							КАРТОФЕЛЬ
+						</div>
+						<img src="imgs/potato.jpg" height="200" width="200">
+					</div>
+					<div class="price-content">
+						<div class="price-info">
+							ЛУК
+						</div>
+						<img src="imgs/onion.jpg" height="200" width="200">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="store" class="store-containers">
+			<div class="store-header">
+				Мы ведем оптовую и розничную торговлю в Гомеле
+			</div>
+			<div class= "store-inner-container">
+				<div class="store-container">
+					<div class="store-title">
+						В розницу
+					</div>
+					<div class="store-inner-container">
+						<div class="store-content">
+							<span class="store">Центральный рынок</span>
+							<br>ул. Карповича Гомель
+							<div style="text-align: right;">магазин №13</div>
+						</div>
+						<div class="store-content">
+							<span class="store">Сельмашевский рынок</span>
+							<br>ул. Б.Царикова 1, Гомель
+							<div style="text-align: right;">магазин №27</div>
+						</div>
+						<div class="store-content">
+							<span class="store">Давыдовский рынок</span>
+							<br>Речицкий просп. Гомель
+							<div style="text-align: right;">павильон 11-45</div>
+						</div>
+						<div class="store-content">
+							<span class="store">Прудковский рынок</span>
+							<br>ул. Каменщикова 3, Гомель
+							<div style="text-align: right;"> </div>
+						</div>
+						<div class="store-content">
+							<span class="store">Новобелицкий рынок</span>
+							<br>ул. Ильича, Гомель
+							<div style="text-align: right;"> </div>
+						</div>
+					</div>
+				</div>
+				<div id="store" class="store-container">
+					<div class="store-title">
+						Оптом
+					</div>
+					<div class="store-inner-container">
+						<div class="store-content">
+							<span class="store">КФХ Парфенькова Л.Н.</span>
+							<br>Гомельский район, д.Костюковка
+							<div style="text-align: right;"><br>+375 (29) 697 28 90</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact" class="feed-back">
+			<span>Телефон: 8 (0232) 979 111</span>
+			<span>Факс: 8 (0232) 979 110</span>
+			<span>Velcom: +375 (29) 697 28 90</span>
+			<span>E-mail: parfenkov@fermer.by</span>
+		</div>
+		<div class="pairs">
+			<a href="http://i10.by">i10 GROUP</a>
+		</div>
+		<script>
+			start();
+			setInterval(function() {
+				nextItem()}, 10000);
+		</script>
+	</body>
+</html>
