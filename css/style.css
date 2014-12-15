@@ -210,16 +210,19 @@ div.feed-back {
 }
 
 div.pairs {
-	height: 100px;
+	height: 40px;
 	background-color: #2d3a44;
 	text-align: center;
-	padding: 40px;
+	line-height: 40px;
 }
 
 .pairs a {
 	color: white;
 	cursor: pointer;
 	text-decoration: none;
+	paddign: 5px;
+	border: 1px solid white;
+	border-radius: 3px;
 }
 
 img.price-img {
