@@ -184,7 +184,7 @@ div.store-content {
 	background-color: white;
 	width: 400px;
 	padding: 20px;
-	border-bottom: 1px dotted black;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
 span.store {

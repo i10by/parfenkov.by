@@ -49,13 +49,13 @@ div.info {
 div.cor-title {
 	background-color: black;
 	margin-top: -320px;
-	border-radius: 5px;
+	border-radius: 3px;
 	text-align: center;
 }
 
 div.cor-content {
 	background-color: #42740c;
 	margin-top: 10px;
-	border-radius: 5px;
+	border-radius: 3px;
 	text-align: left;
 }
