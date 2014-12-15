@@ -25,8 +25,8 @@ div.container {
 
 div.header {
 	position: fixed;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 	height: 80px;
 	background-color: #42740c;
 	width: 100%;
@@ -70,8 +70,8 @@ span.title {
 
 ul.menu {
 	margin-left: calc(10% + 120px);	
-	padding-top: 0px;
-	margin-top: 0px;
+	padding-top: 0;
+	margin-top: 0;
 }
 
 ul.menu li {
@@ -101,7 +101,7 @@ div.container {
 }
 
 div.price-inner-container {
-	margin: 0px auto;
+	margin: 0 auto;
 	width: 1000px;
 }
 
@@ -133,8 +133,8 @@ div.price-info {
 	position: relative;
 	top: 200px;
 	opacity: 0.7;
-	padding: 10px 0px;
-	border-radius: 0px 0px 3px 3px;
+	padding: 10px 0;
+	border-radius: 0 0 3px 3px;
 }
 
 div.title {
@@ -155,7 +155,7 @@ div.store-container {
 	height: 500px;
 	padding: 40px 40px;
 	float: left;
-	margin:  0px 25px 25px 25px;
+	margin:  0 25px 25px 25px;
 	width: 400px;
 }
 
