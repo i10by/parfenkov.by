@@ -15,7 +15,7 @@ div.carousel-button {
 	margin-left: calc(50% - 30px);
 	background-color: white;
 	margin-top: 550px;
-	position: relativeS;
+	position: relative;
 }
 
 div.button {

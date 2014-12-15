@@ -56,7 +56,11 @@ div#logo {
 	font-size: 40px;
 }
 
-font.title {
+div#logo img {
+	margin-top: 10px;
+}
+
+span.title {
 	margin-left: calc(10% + 120px);
 	font-size: 25px;
 	color: white;
@@ -130,6 +134,7 @@ div.price-info {
 	top: 200px;
 	opacity: 0.7;
 	padding: 10px 0px;
+	border-radius: 0px 0px 3px 3px;
 }
 
 div.title {
@@ -214,4 +219,11 @@ div.pairs {
 	color: white;
 	cursor: pointer;
 	text-decoration: none;
+}
+
+img.price-img {
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	border-radius: 3px;
 }
