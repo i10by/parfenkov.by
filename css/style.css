@@ -210,17 +210,17 @@ div.feed-back {
 }
 
 div.pairs {
-	height: 40px;
+	height: 60px;
 	background-color: #2d3a44;
 	text-align: center;
-	line-height: 40px;
+	line-height: 60px;
 }
 
 .pairs a {
 	color: white;
 	cursor: pointer;
 	text-decoration: none;
-	paddign: 5px;
+	padding: 5px;
 	border: 1px solid white;
 	border-radius: 3px;
 }
