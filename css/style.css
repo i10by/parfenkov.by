@@ -40,8 +40,6 @@ div.inner-header {
 }
 
 div.header-logo {
-	top: 0;
-	left: 10%;
 	background-color: #008040;
 	position: fixed;
 	width: 100px;
@@ -53,7 +51,9 @@ div.header-logo {
 }
 
 div#logo {
+	top: 0;
 	font-size: 40px;
+	position: fixed;
 }
 
 div#logo img {
@@ -61,7 +61,7 @@ div#logo img {
 }
 
 span.title {
-	margin-left: calc(10% + 120px);
+	margin-left: 15%;
 	font-size: 25px;
 	color: white;
 	display: block;
@@ -69,7 +69,7 @@ span.title {
 }
 
 ul.menu {
-	margin-left: calc(10% + 120px);	
+	margin-left: 15%;
 	padding-top: 0;
 	margin-top: 0;
 }
@@ -107,7 +107,6 @@ div.price-inner-container {
 
 div.price-container {
 	background-color: white;
-	height: 900px;
 }
 
 div.price-title {

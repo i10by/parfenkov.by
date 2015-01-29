@@ -17,7 +17,7 @@ function menuScroll() {
 	}
 }
 
-function start(){
+function scrollSet(){
 	$(window).scroll(function(){
 		menuScroll();
 	});

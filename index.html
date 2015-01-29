@@ -6,15 +6,15 @@
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/carousel.css"/>
 		<script type="text/javascript" src="js/gui.js"></script>
-		<script type="text/javascript" src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/js-engine.js"></script>
 		<script type="text/javascript" src="js/carousel.js"></script>
 		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 	</head>
 	<body>
 		<div class="header">
 			<span class="title">КФХ Парфенькова Л.Н.</span>
-			<div class="header-logo">
-				<div id="logo">
+			<div id="logo" class="header-logo">
+				<div>
 					<img src="imgs/windmill.png">
 				</div>
 			</div>
@@ -59,61 +59,7 @@
 				Наша продукция
 			</div>
 			<div class="price-inner-container">
-				<div>
-					<div class="price-content">
-						<div class="price-info">
-							ГРУША
-						</div>
-						<img class="price-img" src="imgs/pear.jpg">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							ЯБЛОКО
-						</div>
-						<img src="imgs/apple.jpg" class="price-img">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							ТОМАТЫ
-						</div>
-						<img src="imgs/tomat.jpg" class="price-img">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							ОГУРЕЦ
-						</div>
-						<img src="imgs/cucumber.jpg" class="price-img">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							КАПУСТА
-						</div>
-						<img src="imgs/cabbage.jpg" class="price-img">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							МОРКОВЬ
-						</div>
-						<img src="imgs/carrot.jpg" class="price-img">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							СВЕКЛА
-						</div>
-						<img src="imgs/beet.jpg" class="price-img">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							КАРТОФЕЛЬ
-						</div>
-						<img src="imgs/potato.jpg" class="price-img">
-					</div>
-					<div class="price-content">
-						<div class="price-info">
-							ЛУК
-						</div>
-						<img src="imgs/onion.jpg" class="price-img">
-					</div>
+				<div id="price-items">
 				</div>
 			</div>
 		</div>
@@ -178,9 +124,7 @@
 			<a href="http://i10.by">i10 group</a>
 		</div>
 		<script>
-			start();
-			setInterval(function() {
-				nextItem()}, 10000);
+			main();
 		</script>
 	</body>
 </html>

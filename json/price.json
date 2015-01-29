@@ -1,0 +1,56 @@
+[
+  {
+    "img": "imgs/pear.jpg",
+    "title":"ГРУША",
+    "price":4000,
+    "info":""
+  },
+  {
+  "img": "imgs/apple.jpg",
+  "title":"ЯБЛОКО",
+  "price":4000,
+  "info":""
+  },
+  {
+    "img": "imgs/tomat.jpg",
+    "title":"ТОМАТЫ",
+    "price":4000,
+    "info":""
+  },
+  {
+    "img": "imgs/cucumber.jpg",
+    "title":"ОГУРЕЦ",
+    "price":4000,
+    "info":""
+  },
+  {
+    "img": "imgs/cabbage.jpg",
+    "title":"КАПУСТА",
+    "price":4000,
+    "info":""
+  },
+  {
+    "img": "imgs/carrot.jpg",
+    "title":"МОРКОВЬ",
+    "price":4000,
+    "info":""
+  },
+  {
+    "img": "imgs/beet.jpg",
+    "title":"СВЕКЛА",
+    "price":4000,
+    "info":""
+  },
+  {
+    "img": "imgs/potato.jpg",
+    "title":"КАРТОФЕЛЬ",
+    "price":4000,
+    "info":""
+  },
+  {
+    "img": "imgs/onion.jpg",
+    "title":"ЛУК",
+    "price":4000,
+    "info":""
+  }
+]
