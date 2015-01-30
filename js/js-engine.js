@@ -1,9 +1,8 @@
 var LOGO;
-var DATA_PRICE;
 
 function main() {
     scrollSet();
-    setPrice("json/price.json");
+    loadPrice("json/price.json");
     LOGO = $("#logo");
     LOGO.css('left', innerWidth * 0.15 - 110);
     window.onresize = function(e) {
@@ -24,15 +23,21 @@ function ItemPrice(title, price, img, info) {
     this.info = info;
 }
 
-function setPrice(url) {
+function loadPrice(url) {
     $.post(url, function ( data ) {
         addPriceItems(data);
     });
 }
 
+function compareObjects (a, b) {
+    if (a.title > b.title) return 1;
+    if (a.title < b.title) return -1;
+    return 0;
+};
+
 function addPriceItems(data) {
     var size = data.length;
-    DATA_PRICE = data;
+    //data.sort(compareObjects);
     var root = $("#price-items");
     for(i = 0;i < size; i++) {
         var item = document.createElement('div');
@@ -41,7 +46,11 @@ function addPriceItems(data) {
         item.setAttribute("class" , "price-content");
         inner.setAttribute("class", "price-info");
         img.setAttribute("class", "price-img");
-        inner.innerHTML = data[i].title;
+        if(data[i].price == 0) {
+            inner.innerHTML = data[i].title + "<br> нет в наличии";
+        } else {
+            inner.innerHTML = data[i].title + "<br> от " + data[i].price + " руб/кг";
+        }
         img.setAttribute("src", data[i].img);
         item.appendChild(inner);
         item.appendChild(img);

@@ -1,38 +1,38 @@
 [
   {
     "img": "imgs/pear.jpg",
-    "title":"ГРУША",
-    "price":4000,
+    "title":"ГРУШИ",
+    "price":0,
     "info":""
   },
   {
   "img": "imgs/apple.jpg",
-  "title":"ЯБЛОКО",
-  "price":4000,
+  "title":"ЯБЛОКИ",
+  "price":6000,
   "info":""
   },
   {
     "img": "imgs/tomat.jpg",
     "title":"ТОМАТЫ",
-    "price":4000,
+    "price":0,
     "info":""
   },
   {
     "img": "imgs/cucumber.jpg",
-    "title":"ОГУРЕЦ",
-    "price":4000,
+    "title":"ОГУРЦЫ",
+    "price":0,
     "info":""
   },
   {
     "img": "imgs/cabbage.jpg",
     "title":"КАПУСТА",
-    "price":4000,
+    "price":0,
     "info":""
   },
   {
     "img": "imgs/carrot.jpg",
     "title":"МОРКОВЬ",
-    "price":4000,
+    "price":0,
     "info":""
   },
   {
@@ -44,12 +44,12 @@
   {
     "img": "imgs/potato.jpg",
     "title":"КАРТОФЕЛЬ",
-    "price":4000,
+    "price":5000,
     "info":""
   },
   {
     "img": "imgs/onion.jpg",
-    "title":"ЛУК",
+    "title":"ЛУК РЕПЧАТЫЙ",
     "price":4000,
     "info":""
   }

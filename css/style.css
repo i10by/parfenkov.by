@@ -160,7 +160,7 @@ div.store-container {
 
 div.store-containers {
 	background-color: #e7e7e7;
-	height: 800px;
+	height: 850px;
 	margin: 0 auto;
 }
 
@@ -190,6 +190,7 @@ div.store-content {
 	width: 400px;
 	padding: 20px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	height: 120px;
 }
 
 span.store {
@@ -229,4 +230,54 @@ img.price-img {
 	height: 200px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.5);
 	border-radius: 3px;
+}
+
+div#order-frame {
+	padding: 20px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	margin-top:  -200px;
+	width: 600px;
+	height: 400px;
+	background-color: #42740c;
+	text-align: center;
+	z-index: 10;
+}
+
+textarea#order-text {
+	max-width: 560px;
+	max-height: 200px;
+	height: 300px;
+	width: 560px;
+	background-color: #e7e7e7;
+	padding: 20px;
+	resize: none;
+}
+
+a.button {
+	position: relative;
+	cursor: pointer;
+	color: #42740c;
+	background-color: #e7e7e7;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+div#order-frame div {
+	font-weight: bold;
+	color: white;
+	line-height: 50px;
+	height: 50px;
+}
+
+span.phone {
+	right: 15%;
+	top: 0;
+	padding: 5px;
+	position: fixed;
+	font-size: 20px;
+	color: aliceblue;
 }

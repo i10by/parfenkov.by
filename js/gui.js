@@ -32,3 +32,11 @@ function scrollSet(){
 	});
 	init();
 }
+
+function orderFrameShow() {
+	$("#order-frame").show();
+}
+
+function orderFrameHide() {
+	$("#order-frame").hide();
+}
