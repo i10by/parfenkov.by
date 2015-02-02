@@ -39,6 +39,7 @@ function addPriceItems(data) {
     var size = data.length;
     //data.sort(compareObjects);
     var root = $("#price-items");
+    root.html("");
     for(i = 0;i < size; i++) {
         var item = document.createElement('div');
         var inner = document.createElement('div');
@@ -56,6 +57,6 @@ function addPriceItems(data) {
         item.appendChild(img);
         root.append(item);
     }
-    rootHeight = (Math.floor((size + 3) / 4) * 250 + 100) + "px";
+    rootHeight = (Math.floor((size + 3) / 4) * 200 + 100) + "px";
     root.css("height", rootHeight);
 }

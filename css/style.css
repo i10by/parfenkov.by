@@ -27,45 +27,44 @@ div.header {
 	position: fixed;
 	left: 0;
 	top: 0;
-	height: 80px;
 	background-color: #42740c;
+	line-height: 30px;
 	width: 100%;
 	z-index: 1;
 }
 
 div.inner-header {
-	height: 40px;
+	line-height: 30px;
 	background-color: #e7e7e7;
-	line-height: 40px;
 }
 
 div.header-logo {
 	background-color: #008040;
 	position: fixed;
-	width: 100px;
-	height: 90px;
+	width: 80px;
+	height: 70px;
 	color: white;
 	font-weight: bold;
 	text-align: center;
-	line-height: 90px;
+	line-height: 70px;
 }
 
 div#logo {
 	top: 0;
-	font-size: 40px;
+	font-size: 30px;
 	position: fixed;
 }
 
 div#logo img {
-	margin-top: 10px;
+	padding-top: 3px;
 }
 
 span.title {
 	margin-left: 15%;
-	font-size: 25px;
+	font-size: 20px;
 	color: white;
 	display: block;
-	height: 40px;
+	height: 30px;
 }
 
 ul.menu {
@@ -81,18 +80,18 @@ ul.menu li {
 ul.menu a {
 	padding-bottom: 3px;
 	margin-right: 50px;
-	font-size: 20px;
+	font-size: 15px;
 	color: #42740c;
 	text-decoration: none;
 	cursor: pointer;
 }
 
 ul.menu a.now {
-	border-bottom: 5px solid #42740c;
+	border-bottom: 3px solid #42740c;
 }
 
 ul.menu a:hover {
-	border-bottom: 5px solid #42740c;
+	border-bottom: 3px solid #42740c;
 }
 
 div.container {
@@ -102,7 +101,7 @@ div.container {
 
 div.price-inner-container {
 	margin: 0 auto;
-	width: 1000px;
+	width: 800px;
 }
 
 div.price-container {
@@ -121,8 +120,8 @@ div.price-title {
 div.price-content {
 	float: left;
 	text-align: center;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	margin: 25px;
 }
 
@@ -130,9 +129,9 @@ div.price-info {
 	background-color: black;
 	color: white;
 	position: relative;
-	top: 200px;
+	top: 150px;
 	opacity: 0.7;
-	padding: 10px 0;
+	line-height: 20px;
 	border-radius: 0 0 3px 3px;
 }
 
@@ -147,7 +146,7 @@ div.title {
 
 div.store-inner-container {
 	margin: 0 auto;
-	width: 1000px;
+	width: 800px;
 }
 
 div.store-container {
@@ -155,12 +154,12 @@ div.store-container {
 	padding: 40px 40px;
 	float: left;
 	margin:  0 25px 25px 25px;
-	width: 400px;
+	width: 300px;
 }
 
 div.store-containers {
 	background-color: #e7e7e7;
-	height: 850px;
+	height: 650px;
 	margin: 0 auto;
 }
 
@@ -180,21 +179,22 @@ div.store-title {
 	line-height: 50px;
 	height: 50px;
 	margin: 0 auto;
-	width: 400px;
+	width: 300px;
 	background-color: #42740c;
 	box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
 div.store-content {
 	background-color: white;
-	width: 400px;
-	padding: 20px;
+	padding: 10px;
+	width: 300px;
+	line-height: 20px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.5);
-	height: 120px;
+	height: 80px;
 }
 
 span.store {
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -226,8 +226,8 @@ div.pairs {
 }
 
 img.price-img {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.5);
 	border-radius: 3px;
 }
@@ -274,7 +274,7 @@ div#order-frame div {
 }
 
 span.phone {
-	right: 15%;
+	right: 20%;
 	top: 0;
 	padding: 5px;
 	position: fixed;
