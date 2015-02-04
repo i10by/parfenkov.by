@@ -1,19 +1,9 @@
-var LOGO;
-
 function main() {
     scrollSet();
     loadPrice();
-    LOGO = $("#logo");
-    LOGO.css('left', innerWidth * 0.2 - 100);
-    window.onresize = function(e) {
-        setLogoPosition();
-    }
+    logo();
     setInterval(function() {
         nextItem()}, 10000);
-}
-
-function setLogoPosition() {
-    LOGO.css('left', innerWidth * 0.2 - 100);
 }
 
 function ItemPrice(title, price, img, info) {

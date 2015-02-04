@@ -1,3 +1,17 @@
+var LOGO;
+
+function logo() {
+	LOGO = $("#logo");
+	LOGO.css('left', innerWidth * 0.2 - 100);
+	window.onresize = function(e) {
+		setLogoPosition();
+	}
+}
+
+function setLogoPosition() {
+	LOGO.css('left', innerWidth * 0.2 - 100);
+}
+
 function menuScroll() {
 	var ws = $(window).scrollTop();
 	if(ws >= 1100) {
