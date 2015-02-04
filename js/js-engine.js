@@ -4,7 +4,7 @@ function main() {
     scrollSet();
     loadPrice();
     LOGO = $("#logo");
-    LOGO.css('left', innerWidth * 0.15 - 110);
+    LOGO.css('left', innerWidth * 0.2 - 100);
     window.onresize = function(e) {
         setLogoPosition();
     }
@@ -13,7 +13,7 @@ function main() {
 }
 
 function setLogoPosition() {
-    LOGO.css('left', innerWidth * 0.15 - 110);
+    LOGO.css('left', innerWidth * 0.2 - 100);
 }
 
 function ItemPrice(title, price, img, info) {

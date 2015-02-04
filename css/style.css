@@ -60,7 +60,9 @@ div#logo img {
 }
 
 span.title {
-	margin-left: 15%;
+	position: relative;
+	left: 20%;
+	text-align: left;
 	font-size: 20px;
 	color: white;
 	display: block;
@@ -68,7 +70,9 @@ span.title {
 }
 
 ul.menu {
-	margin-left: 15%;
+	position: relative;
+	left: 20%;
+	text-align: left;
 	padding-top: 0;
 	margin-top: 0;
 }
@@ -272,7 +276,7 @@ div#order-frame div {
 }
 
 span.phone {
-	margin-left: 230px;
+	margin-left: 38px;
 	line-height: 30px;
 	color: aliceblue;
 }
