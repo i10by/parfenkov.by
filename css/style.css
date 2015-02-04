@@ -64,7 +64,7 @@ span.title {
 	font-size: 20px;
 	color: white;
 	display: block;
-	height: 30px;
+	line-height: 30px;
 }
 
 ul.menu {
@@ -136,12 +136,11 @@ div.price-info {
 }
 
 div.title {
-	height: 50px;
 	background-color: #42740c;
 	text-align: center;
 	font-weight: bold;
 	color: white;
-	line-height: 50px;
+	line-height: 40px;
 }
 
 div.store-inner-container {
@@ -274,10 +273,7 @@ div#order-frame div {
 }
 
 span.phone {
-	right: 20%;
-	top: 0;
-	padding: 5px;
-	position: fixed;
-	font-size: 20px;
+	margin-left: 230px;
+	line-height: 30px;
 	color: aliceblue;
 }
