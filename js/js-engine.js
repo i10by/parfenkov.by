@@ -2,7 +2,7 @@ var LOGO;
 
 function main() {
     scrollSet();
-    loadPrice("json/price.json");
+    loadPrice();
     LOGO = $("#logo");
     LOGO.css('left', innerWidth * 0.15 - 110);
     window.onresize = function(e) {
@@ -23,8 +23,8 @@ function ItemPrice(title, price, img, info) {
     this.info = info;
 }
 
-function loadPrice(url) {
-    $.post(url, function ( data ) {
+function loadPrice() {
+    $.post("json/price.json", function ( data ) {
         addPriceItems(data);
     });
 }
@@ -37,7 +37,7 @@ function compareObjects (a, b) {
 
 function addPriceItems(data) {
     var size = data.length;
-    //data.sort(compareObjects);
+    data.sort(compareObjects);
     var root = $("#price-items");
     root.html("");
     for(i = 0;i < size; i++) {

@@ -257,7 +257,6 @@ textarea#order-text {
 
 a.button {
 	position: relative;
-	cursor: pointer;
 	color: #42740c;
 	background-color: #e7e7e7;
 	padding: 10px;
@@ -276,4 +275,7 @@ span.phone {
 	margin-left: 230px;
 	line-height: 30px;
 	color: aliceblue;
+}
+.button {
+	cursor: pointer;
 }
