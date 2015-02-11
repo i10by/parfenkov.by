@@ -135,12 +135,9 @@ div.price-info {
 	position: relative;
 	top: 150px;
 	opacity: 0.7;
-<<<<<<< HEAD
 	line-height: 40px;
-=======
 	line-height: 20px;
 	padding: 5px;
->>>>>>> origin/master
 	border-radius: 0 0 3px 3px;
 }
 
