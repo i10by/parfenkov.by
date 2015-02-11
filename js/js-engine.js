@@ -37,11 +37,12 @@ function addPriceItems(data) {
         item.setAttribute("class" , "price-content");
         inner.setAttribute("class", "price-info");
         img.setAttribute("class", "price-img");
-        if(data[i].price == 0) {
+        inner.innerHTML = data[i].title;
+        /*if(data[i].price == 0) {
             inner.innerHTML = data[i].title + "<br> нет в наличии";
         } else {
             inner.innerHTML = data[i].title + "<br> от " + data[i].price + " руб/кг";
-        }
+        }*/
         img.setAttribute("src", data[i].img);
         item.appendChild(inner);
         item.appendChild(img);

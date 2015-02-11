@@ -1,22 +1,27 @@
 div.carousel {
-	height: 600px;
+	height: 500px;
 	width: 100%;
 	background-color: green;
 	position: fixed;
 }
 
 div.item {
-	height: 600px;
+	height: 500px;
 	position: absolute;
+	width: 1500px;
 	overflow: hidden;
+	left: 50%;
+	margin-left: -750px;
+	border-radius: 5px;
 }
 
 div.carousel-button {
-	margin-left: 10%;
+	left: 50%;
 	padding-left: 115px;
 	background-color: white;
 	margin-top: 450px;
 	position: relative;
+	margin-left: -600px;
 }
 
 div.button {
@@ -38,7 +43,8 @@ div.active {
 
 div.info {
 	position: relative;
-	margin-left: 10%;
+	left: 50%;
+	margin-left: -600px;
 	opacity: 0.7;
 	width: 300px;
 	color: white;
