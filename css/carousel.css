@@ -16,7 +16,7 @@ div.item {
 }
 
 div.carousel-button {
-	left: 10%;
+	left: 20%;
 	padding-left: 115px;
 	background-color: white;
 	margin-top: 450px;
@@ -43,7 +43,7 @@ div.active {
 
 div.info {
 	position: relative;
-	left: 10%;
+	left: 20%;
 	opacity: 0.7;
 	width: 300px;
 	color: white;

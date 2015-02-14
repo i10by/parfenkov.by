@@ -14,21 +14,31 @@ function setLogoPosition() {
 
 function menuScroll() {
 	var ws = $(window).scrollTop();
-	if(ws >= 1100) {
-		$("#aStore").addClass("now");
-		$("#aPrice").removeClass("now");
-		$("#aAbout").removeClass("now");
+	console.log(ws);
+	if(ws >= 1900) {
+		clear();
+		$("#aContact").addClass("now");
 	} else {
-		if(ws >= 600) {
-			$("#aPrice").addClass("now");
-			$("#aStore").removeClass("now");
-			$("#aAbout").removeClass("now");
+		if(ws >= 1300) {
+			clear();
+			$("#aStore").addClass("now");
 		} else {
-			$("#aStore").removeClass("now");
-			$("#aPrice").removeClass("now");
-			$("#aAbout").addClass("now");
+			if(ws >= 600) {
+				clear();
+				$("#aPrice").addClass("now");
+			} else {
+				clear();
+				$("#aAbout").addClass("now");
+			}
 		}
 	}
+}
+
+function clear() {
+	$("#aPrice").removeClass("now");
+	$("#aStore").removeClass("now");
+	$("#aAbout").removeClass("now");
+	$("#aContact").removeClass("now");
 }
 
 function scrollSet(){
