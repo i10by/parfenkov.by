@@ -13,6 +13,14 @@ function init() {
 	}
 }
 
+function setMargin() {
+	var winWidth = window.innerWidth;
+	var cbWidth = winWidth * 0.1 + 50;
+	var infoWidth = winWidth * 0.1 + 50;
+	$("div.carousel-button").css('margin-left', cbWidth);
+	$("div.info").css('margin-left', infoWidth);
+}
+
 function setItem(id) {
 	currItem = id;
 	setHeader(id);

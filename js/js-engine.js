@@ -1,5 +1,8 @@
 function main() {
     scrollSet();
+    $(window).resize(function() {
+        setMargin();
+    });
     loadPrice();
     logo();
     setInterval(function() {
@@ -38,11 +41,6 @@ function addPriceItems(data) {
         inner.setAttribute("class", "price-info");
         img.setAttribute("class", "price-img");
         inner.innerHTML = data[i].title;
-        /*if(data[i].price == 0) {
-            inner.innerHTML = data[i].title + "<br> нет в наличии";
-        } else {
-            inner.innerHTML = data[i].title + "<br> от " + data[i].price + " руб/кг";
-        }*/
         img.setAttribute("src", data[i].img);
         item.appendChild(inner);
         item.appendChild(img);
